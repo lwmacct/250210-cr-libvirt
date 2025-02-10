@@ -47,8 +47,6 @@ __main() {
     -v /zfs/lwm/3333-lwmacct/data/root/.docker:/root/.docker \
     -v /disk:/disk:rw,rshared \
     -v /data:/data:rw,rshared \
-    -v /data/root/.ssh:/root/.ssh \
-    -v /data/root/.docker:/root/.docker \
     -v "$_app_data:/apps/data" \
     -v "$_app_data/.vscode-server/root:/root" \
     -v "$_app_data/.vscode-server/data:/root/.vscode-server/data" \
