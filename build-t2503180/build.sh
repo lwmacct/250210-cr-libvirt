@@ -85,7 +85,7 @@ __help() {
   cat >/dev/null <<"EOF"
 这里可以写一些备注
 
-ghcr.io/lwmacct/250210-cr-libvirt:build-t2502100
+ghcr.io/lwmacct/250210-cr-libvirt:build-t2503180
 
 EOF
 }
